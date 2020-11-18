@@ -1,0 +1,184 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav {
+    background: #447BD4;
+    z-index:5;
+    position:relative;
+
+}
+
+    nav a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 17px;
+        font-family: 'Varela Round', sans-serif;
+    }
+        nav a:hover {
+            color: aliceblue;
+            border-bottom: 4px solid aliceblue;
+            text-decoration: none;
+            padding: 17px;
+            font-family: 'Varela Round', sans-serif;
+        }
+.a{
+    color: aliceblue;
+            border-bottom: 4px solid aliceblue;
+            text-decoration: none;
+            padding: 17px;
+            font-family: 'Varela Round', sans-serif;
+}
+.logo {
+    background-image: url(../img/image.jpg);
+    width: 100%;
+    height: 96.8%;
+    position: absolute;
+    display: grid;
+    top:30px;
+    left:0;
+}
+.index_h1 {
+    z-index: 6;
+    position: relative;
+    margin-top: 30px;
+    color: #447BD4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+}
+.index_h2 {
+    z-index: 6;
+    position: relative;
+    padding-top: 25%;
+    color: #447BD4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+}
+.input {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+    position: relative;
+    z-index: 8;
+    font-size:17px;
+}
+.label {
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    z-index: 8;
+    font-size: 17px;
+}
+
+.but {
+    position: relative;
+    z-index: 8;
+    border-radius: 8px;
+    background-color: #447BD4;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+    .but:hover {
+        position: relative;
+        z-index: 8;
+        border-radius: 8px;
+        background-color: white;
+        font-size: 17px;
+        color: #447BD4;
+        border: none;
+        transition: 1s;
+    }
+.Register_type {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    position: relative;
+    z-index: 8;
+}
+.n1{
+    margin-top:15px;
+    
+}
+.register_section{
+    text-align:center;
+    margin-top:25%;
+    
+}

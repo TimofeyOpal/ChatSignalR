@@ -1,0 +1,36 @@
+﻿@model Project.Models.RegisterModel
+
+    <section class="register_section">
+        <h2 class="Register_type">Registration</h2>
+
+        <form asp-action="Register" asp-controller="Account" asp-anti-forgery="true">
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div>
+                <div>
+                    <label class="label" asp-for="Email">Enter email</label><br />
+                    <input class="input" type="text" asp-for="Email" />
+                    <span asp-validation-for="Email" />
+                </div>
+                <div>
+                    <label class="label" asp-for="UserName">Enter UserName</label><br />
+                    <input class="input" asp-for="UserName" />
+                    <span asp-validation-for="UserName" />
+                </div>
+                <div>
+                    <label class="label" asp-for="Password">Enter password</label><br />
+                    <input class="input" asp-for="Password" />
+                    <span asp-validation-for="Password" />
+                </div>
+
+                <div>
+                    <label class="label" asp-for="ConfirmPassword">Repeat password</label><br />
+                    <input class="input" asp-for="ConfirmPassword" />
+                    <span asp-validation-for="ConfirmPassword" />
+                </div>
+                <div>
+                    <input class="but n1" type="submit" value="Registration" />
+                </div>
+            </div>
+            <div class="logo"></div>
+        </form>
+    </section>
